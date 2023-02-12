@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <header class="bg-white fixed-top py-2 text-start">
+
+        <div class="container text-start align-items-center d-flex justify-content-between">
+
+            <div class="nimadir d-flex">
+                <img class="w200" src="https://cartzilla.createx.studio/img/logo-dark.png" alt="">
+
+                <div class="york w200 text-start d-none d-xl-flex">
+                    <h2 class="fs-5 btn red new"><i class="fas fa-map-marker-alt"></i> New York <i
+                            class="fas fa-caret-down"></i></h2>
+
+                    <div class="dropdownmenu px-5 py-3 bg-white">
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none fw-bold red">Los Angeles </a></li>
+                            <li><a href="#" class="text-decoration-none fw-bold red">Chicago</a></li>
+                            <li><a href="#" class="text-decoration-none fw-bold red">Hauston</a></li>
+                            <li><a href="#" class="text-decoration-none fw-bold red">Philadephia</a></li>
+                            <li><a href="#" class="text-decoration-none fw-bold red">San Diago</a></li>
+                            <li><a href="#" class="text-decoration-none fw-bold red">Miami</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="cuisine text-start d-none d-xl-flex">
+                    <h2 class="fs-5 btn red">Cuisine</h2>
+
+                    <div class="row text-center dropdown-chart">
+
+                        <div class="col-lg-4 my-3">
+                            <img class="menui" src="./images/burger.svg" alt=""> <br>
+                            <a href="#"
+                                class="text-decoration-none text-dark fw-bold fs55  pt-2 d-sm-inline-block">Burger &
+                                Fries</a>
+                        </div>
+
+                        <div class="col-lg-4 my-3">
+                            <img class="menui" src="./images/noodles-2.svg" alt=""> <br>
+                            <a href="#"
+                                class="text-decoration-none text-dark fw-bold fs55 pt-2 d-sm-inline-block">Noodless</a>
+                        </div>
+
+                        <div class="col-lg-4 my-3">
+                            <img class="menui" src="./images/pizza-3.svg" alt=""> <br>
+                            <a href="#" class="text-decoration-none text-dark fw-bold fs55 pt-2 d-sm-inline-block">Pizza
+                                & Pasta</a>
+                        </div>
+
+                        <div class="col-lg-4 my-3">
+                            <img class="menui" src="./images/steak-4.svg" alt=""> <br>
+                            <a href="#"
+                                class="text-decoration-none text-dark fw-bold fs55  pt-2 d-sm-inline-block">Grills &
+                                Sticks</a>
+                        </div>
+
+                        <div class="col-lg-4 my-3">
+                            <img class="menui" src="./images/fish-5.svg" alt=""> <br>
+                            <a href="#" class="text-decoration-none text-dark fw-bold fs55 pt-2 d-sm-inline-block">Fish
+                                & Seafood</a>
+                        </div>
+
+                        <div class="col-lg-4 my-3">
+                            <img class="menui" src="./images/healthy-6.svg" alt=""> <br>
+                            <a href="#"
+                                class="text-decoration-none text-dark fw-bold fs55 pt-2 d-sm-inline-block">Healthy
+                                Food</a>
+                        </div>
+
+                        <div class="col-lg-4 my-3">
+                            <img class="menui" src="./images/cuisine-7.svg" alt=""> <br>
+                            <a href="#"
+                                class="text-decoration-none text-dark fw-bold fs55  pt-2 d-sm-inline-block">Haute
+                                Cuisine</a>
+                        </div>
+
+                        <div class="col-lg-4 my-3">
+                            <img class="menui" src="./images/chicken-8.svg" alt=""> <br>
+                            <a href="#"
+                                class="text-decoration-none text-dark fw-bold fs55 pt-2 d-sm-inline-block">Chicken &
+                                Snacks</a>
+                        </div>
+
+                        <div class="col-lg-4 my-3">
+                            <img class="menui" src="./images/coffee-9.svg" alt=""> <br>
+                            <a href="#" class="text-decoration-none text-dark fw-bold fs55 pt-2 d-sm-inline-block">Cofee
+                                & Desert</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <h2 class="red fs-5 btn text-start d-none d-xl-flex">Back to main demo</h2>
+            </div>
+
+            <div class="icon d-none d-xl-flex ">
+                <i class="fas fa-search fa-2x red"></i>
+                <i class="far fa-user fa-2x red"></i>
+            </div>
+
+            <div class="dropdown d-xl-none">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Location</a></li>
+                    <li><a class="dropdown-item" href="#">Cuiseine</a></li>
+                    <li><a class="dropdown-item" href="#">Back to main demo</a></li>
+                    <li><a class="dropdown-item" href="#">Search</a></li>
+                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+
+
+    </header>
+
+    <div class="showcase d-flex justify-content-center align-items-center text-center">
+
+        <div>
+            <p class="text-light fs-4 mb-0">#1 Food Delivery Service since 2010</p>
+            <h1 class="text-light">
+                We deliver your favorite food <br> fresh & fast in <span class="text-danger">New York</span> </h1>
+
+            <a class="text-decoration-none text-light btn btn-danger mt-5" href="#">What do you want to eat?</a>
+        </div>
+
+    </div>
+
+    <section class="first py-5 my-3">
+        <div class="container text-center">
+
+            <h2 class="text-dark fw-bold">Trending food in your city</h2>
+            <p class="text-secondary mt-0">Choose what you want and we dilever it to you</p>
+
+            <div class="row mt-5">
+
+                <div class="col-lg-4  my-2 ">
+                    <div class="card border-0 shadow mx-1">
+                        <img src="./images/food-1.jpg" alt="">
+                        <a href="#" class="text-decoration-none fs-4  text-dark fw-bold my-4">Burgers & Fries</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4  my-2 ">
+                    <div class="card border-0 shadow mx-1">
+                        <img src="./images/food-2.jpg" alt="">
+                        <a href="#" class="text-decoration-none fs-4  text-dark fw-bold my-4">Noodless</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4  my-2 ">
+                    <div class="card border-0 shadow mx-1">
+                        <img src="./images/food-3.jpg" alt="">
+                        <a href="#" class="text-decoration-none fs-4  text-dark fw-bold my-4">Sushi & Rolls</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4  my-2 ">
+                    <div class="card border-0 shadow mx-1">
+                        <img src="./images/food-4.jpg" alt="">
+                        <a href="#" class="text-decoration-none fs-4  text-dark fw-bold my-4">Pizza & Pasta</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4  my-2 ">
+                    <div class="card border-0 shadow mx-1">
+                        <img src="./images/food-5.jpg" alt="">
+                        <a href="#" class="text-decoration-none fs-4  text-dark fw-bold my-4">Coffee & Dessert</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4  my-2 ">
+                    <div class="card border-0 shadow mx-1">
+                        <img src="./images/food-6.jpg" alt="">
+                        <a href="#" class="text-decoration-none fs-4  text-dark fw-bold my-4">Healthy Food</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="second d-flex justify-content-center align-items-center overflow-hidden">
+
+        <div class="text">
+
+            <h2 class="text-light">Order food on the go with <br> Cartzilla App</h2>
+            <p class="text-light py-3">Pay with in app wallet, collect loyalty points, track <br> your orders in real
+                time and much more.</p>
+
+            <a href="#" class="btn btn-dark text-light fs-5 border-1"> <span class="fs-6 text-secondary mb-0">Download
+                    on the <br> </span> App Store </a>
+            <a href="#" class="btn btn-dark text-light fs-5 border-1"> <span class="fs-6 text-secondary mb-0">Download
+                    on the <br> </span> Play MArket </a>
+
+        </div>
+
+        <div class="text">
+            <img class=" d-none d-lg-flex" src="./images/phone.png" alt="">
+        </div>
+
+    </section>
+
+    <section class="third py-5 my-3">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6 blue px-5 py-2 ">
+                    <div class=" row justify-content-center align-items-center ">
+                        <div class="col-lg-7">
+                            <h2 class="h2">Become a Courier</h2>
+                            <p class="text-secondary">Earn competitive salary as delivery courier working flexible
+                                schedule.</p>
+                            <a href="#" class="btn  btn-danger">Start Earning</a>
+                        </div>
+                        <div class="col-lg-5">
+                            <img class="mw" src="./images/third-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 pink px-5 py-2 ">
+                    <div class=" row justify-content-center align-items-center ">
+                        <div class="col-lg-7">
+                            <h2 class="h2">Become a Courier</h2>
+                            <p class="text-secondary">Earn competitive salary as delivery courier working flexible
+                                schedule.</p>
+                            <a href="#" class="btn  btn-danger">Start Earning</a>
+                        </div>
+                        <div class="col-lg-5">
+                            <img class="mw" src="./images/third-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="four">
+        <div class="container text-center">
+
+            <h2 class="h2 fw-bold">Popular restaurants in your city</h2>
+            <p class="text-secondary">Check the best restaurants near you</p>
+
+            <div class="row py-5">
+
+                <div class=" col-sm-4 my-2 col-xl-3 ">
+                    <div class="shadow card border-0">
+                        <img src="./images/four-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class=" col-sm-4 my-2 col-xl-3 ">
+                    <div class="shadow card border-0">
+                        <img src="./images/four-2.png" alt="">
+                    </div>
+                </div>
+
+                <div class=" col-sm-4 my-2 col-xl-3 ">
+                    <div class="shadow card border-0">
+                        <img src="./images/four-3.png" alt="">
+                    </div>
+                </div>
+
+                <div class=" col-sm-4 my-2 col-xl-3 ">
+                    <div class="shadow card border-0">
+                        <img src="./images/four-4.png" alt="">
+                    </div>
+                </div>
+
+                <div class=" col-sm-4 my-2 col-xl-3 ">
+                    <div class="shadow card border-0">
+                        <img src="./images/four-5.png" alt="">
+                    </div>
+                </div>
+
+                <div class=" col-sm-4 my-2 col-xl-3 ">
+                    <div class="shadow card border-0">
+                        <img src="./images/four-6.png" alt="">
+                    </div>
+                </div>
+
+                <div class=" col-sm-4 my-2 col-xl-3 ">
+                    <div class="shadow card border-0">
+                        <img src="./images/four-7.png" alt="">
+                    </div>
+                </div>
+
+                <div class=" col-sm-4 my-2 col-xl-3 ">
+                    <div class="shadow card border-0">
+                        <img src="./images/four-8.png" alt="">
+                    </div>
+                </div>
+
+                <div class=" col-sm-4 my-2 col-xl-3 ">
+                    <div class="shadow card border-0">
+                        <img src="./images/four-9.png" alt="">
+                    </div>
+                </div>
+
+                <div class=" col-sm-4 my-2 col-xl-3 ">
+                    <div class="shadow card border-0">
+                        <img src="./images/four-10.png" alt="">
+                    </div>
+                </div>
+
+                <div class=" col-sm-4 my-2 col-xl-3 ">
+                    <div class="shadow card border-0">
+                        <img src="./images/four-11.png" alt="">
+                    </div>
+                </div>
+
+                <div class=" col-sm-4 my-2 col-xl-3 ">
+                    <div class="shadow card border-0">
+                        <img src="./images/four-12.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="five">
+
+        <div class="container">
+            <h2 class="h2  text-center fw-bold">Customer reviews</h2>
+
+            <div class="row py-5">
+
+                <div class="col-lg-3 ">
+                   <div class="shadow m-1 px-3 py-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                    <p class="text-secondary py-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                        incidunt inventore ratione veritatis, commodi delectus sed rerum ad sit optio.</p>
+                   </div>
+                </div>
+
+                <div class="col-lg-3 ">
+                   <div class="shadow m-1 px-3 py-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                    <p class="text-secondary py-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                        incidunt inventore ratione veritatis, commodi delectus sed rerum ad sit optio.</p>
+                   </div>
+                </div>
+
+                <div class="col-lg-3 ">
+                   <div class="shadow m-1 px-3 py-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                    <p class="text-secondary py-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                        incidunt inventore ratione veritatis, commodi delectus sed rerum ad sit optio.</p>
+                   </div>
+                </div>
+
+                <div class="col-lg-3 ">
+                   <div class="shadow m-1 px-3 py-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                    <p class="text-secondary py-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                        incidunt inventore ratione veritatis, commodi delectus sed rerum ad sit optio.</p>
+                   </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+
+    <footer class="bg-dark text-light py-5">
+
+        <div class="container py-3">
+            <div class="row">
+
+                <div class="col-md-6 col-xl-2">
+    
+                    <ul class="list-unstyled">
+                        <h2 class="h4 fw-bold">Join Us</h2>
+    
+                        <li>Career</li>
+                        <li>Restaurant</li>
+                        <li>Become a cariour</li>
+                        <li>About</li>
+    
+                    </ul>
+    
+                </div>
+
+                <div class="col-md-6 col-xl-2">
+    
+                    <ul class="list-unstyled">
+                        <h2 class="h4 fw-bold">Join Us</h2>
+    
+                        <li>Career</li>
+                        <li>Restaurant</li>
+                        <li>Become a cariour</li>
+                        <li>About</li>
+    
+                    </ul>
+    
+                </div>
+
+                <div class="col-md-6 col-xl-2">
+    
+                    <ul class="list-unstyled">
+                        <h2 class="h4 fw-bold">Join Us</h2>
+    
+                        <li>Career</li>
+                        <li>Restaurant</li>
+                        <li>Become a cariour</li>
+                        <li>About</li>
+    
+                    </ul>
+    
+                </div>
+
+                <div class="col-md-6 col-xl-2">
+    
+                    <ul class="list-unstyled">
+                        <h2 class="h4 fw-bold">Join Us</h2>
+    
+                        <li>Career</li>
+                        <li>Restaurant</li>
+                        <li>Become a cariour</li>
+                        <li>About</li>
+    
+                    </ul>
+    
+                </div>
+
+                <div class="col-md-6 col-xl-2">
+    
+                    <ul class="list-unstyled">
+                        <h2 class="h4 fw-bold">Join Us</h2>
+    
+                        <li>Career</li>
+                        <li>Restaurant</li>
+                        <li>Become a cariour</li>
+                        <li>About</li>
+    
+                    </ul>
+    
+                </div>
+
+                <div class="col-md-6 col-xl-2">
+    
+                    <ul class="list-unstyled">
+                        <h2 class="h4 fw-bold">Join Us</h2>
+    
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, autem.</p>
+    
+                    </ul>
+    
+                </div>
+    
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

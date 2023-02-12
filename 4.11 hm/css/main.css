@@ -1,0 +1,110 @@
+header .red {
+  color: #1f1d1d;
+}
+
+header .red:hover {
+  color: red;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+header .icon i {
+  margin: 0 5px;
+}
+
+header .container {
+  margin: 0 auto;
+}
+
+header .w200 {
+  width: 150px;
+}
+
+header .new {
+  border-right: 1px solid grey;
+  border-radius: 0;
+  padding: 5px 20px;
+}
+
+header .york:hover .dropdownmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+header .dropdownmenu {
+  border-radius: 3px;
+  position: absolute;
+  display: none;
+}
+
+header .fs55 {
+  font-size: 1.1em;
+}
+
+header .menui {
+  width: 80px;
+  height: 80px;
+}
+
+header .dropdown-chart {
+  display: none;
+  position: absolute;
+  width: 580px;
+  padding: 10px 30px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+header .cuisine:hover .dropdown-chart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 35px;
+}
+
+.showcase {
+  background: url(https://cartzilla.createx.studio/img/food-delivery/hero-bg.jpg) no-repeat center/cover;
+  height: 100vh;
+}
+
+.second {
+  background: url(../images/second.jpg) no-repeat center/cover;
+  height: 600px;
+}
+
+.second .text {
+  width: 400px;
+  margin: 0 30px;
+}
+
+@media (max-width: 992px) {
+  .second .text {
+    width: 100%;
+    margin: 0 30px;
+  }
+}
+
+.second img {
+  max-width: 100%;
+}
+
+.mw {
+  max-width: 100%;
+}
+
+.blue {
+  border-radius: 3px;
+  background-color: #d8d8fd;
+}
+
+.pink {
+  border-radius: 3px;
+  background-color: #fae1e5;
+}
+
+.five i {
+  color: gold;
+}
+/*# sourceMappingURL=main.css.map */

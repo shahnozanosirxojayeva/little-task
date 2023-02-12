@@ -1,0 +1,233 @@
+$d-blue:#03335c;
+$l-blue:#0092dd ;
+.text-lblue{
+    color: $l-blue;
+}
+.bg-lblue{
+    background-color: $l-blue;
+}
+.bg-darkb{
+    background-color: $d-blue;
+}
+.btn-dblue{
+    background-color: $d-blue;
+
+    &:hover{
+        background-color: lighten($d-blue, 20);
+    }
+}
+.fixed-end{
+    position: fixed;
+    right: 15px;
+    top: 150px;
+    z-index: 100;
+}
+.aylana{
+    width: 60px;
+    height: 60px;
+}
+.bg-blue{
+    background-color: $l-blue;
+
+    &:hover{
+        background-color: darken( $l-blue, 20);
+    }
+}
+.bor0{
+    border-radius: 0;
+}
+.bor-right{
+    border-right: 1px solid rgb(207, 217, 248);
+}
+.bor-left{
+    border-left: 1px solid rgb(207, 217, 248);
+}
+.hover-unul{
+    li{
+        &:hover{
+            border-bottom: 3px solid #7fa5b8 ;
+        }
+    }
+}
+.hover-ul{
+    li{
+        &:hover{
+            background-color: lighten($color: $d-blue, $amount: 50);
+            transition: .5s ease-in-out;
+        }
+    }
+}
+.showcase{
+   background: url(../images/showcase.jpg)
+   center/ cover;
+   height: 90vh;
+}
+.bd-example {
+    position: relative;
+    padding: 1rem;
+    margin: 1rem -0.75rem 0;
+    border: solid #dee2e6;
+    border-width: 1px 0 0;
+}
+body {
+    position: relative;
+}
+.h200{
+    height: 200px;
+}
+.bg-show{
+    background-color: rgba(0, 0, 0, 0.295);
+    color: #fff;
+    border: 5px solid $l-blue;
+}
+.plus{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.bor{
+    border-radius: 3px;
+}
+.licha{
+    color: $l-blue;
+    border: 1px solid $l-blue;
+
+    &:hover{
+        background-color: lighten($color: grey, $amount: 20);
+    }
+
+}
+.och{
+    background-color: lighten($color: $l-blue, $amount: 50);
+}
+.rasm{
+    img{
+        max-width: 100%;
+    }
+}
+.pic{
+    max-width: 100%;
+}
+@media (min-width:992px){
+
+    .m500{
+        width: 560px;
+        height: 260px;
+       
+        img{
+            max-width: 100%;
+        }
+       
+       }
+
+    .top25{
+        padding-top: 10vh;
+    }
+}
+#qollanma{
+    background: url(../images/bg-five.jpg)
+    center / cover;
+}
+.infor{
+    border: 1px solid grey;
+}
+.orash{
+    background: rgba(0, 0, 0, 0.377);
+
+    &:hover{
+        background-color: lighten($color: $l-blue, $amount: 20);
+        transition: .8s;
+    }
+}
+.parentt{
+    position: relative;
+}
+.scale{
+
+    &:hover{
+        transform: scale(1.2);
+        transition: 1s ease-in-out;
+    }
+
+}
+.ramiz{
+    background-color: lighten($color: $l-blue, $amount: 40);
+}
+.nimadir{
+    &:hover{
+        border: 1px solid $l-blue;
+    }
+
+    &:hover .bur{
+        transition: .5s;
+        transform: rotateY(360deg);
+    }
+
+    &:hover p{
+        color: $l-blue;
+    }
+}
+.parent{
+    position: relative;
+
+    &:hover{
+        border: 2px solid $d-blue;
+        color: $d-blue;
+    }
+
+    &:hover .bplus{
+        opacity: 1;
+    }
+}
+.bplus{
+position: absolute;
+width: 40px;
+height: 40px;
+background-color: $d-blue;
+bottom: 0;
+right:0;
+opacity: 0;
+}
+
+.ikon{
+    display: flex;
+    i{
+        color: grey;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid grey;
+        margin: 10px;
+        border-radius: 50%;
+
+        &:hover{
+            color: #fff;
+            border: 1px solid #fff;
+        }
+    }
+}
+
+.fff{
+    color: grey;
+    &:hover{
+        color: #fff;
+        transition: .4s ease-in-out;
+    }
+}
+
+.top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 20px;
+    z-index: 100;
+}
